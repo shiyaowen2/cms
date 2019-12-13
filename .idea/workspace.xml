@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9cd90ef-5592-42d3-8c65-904371bebd9a" name="Default Changelist" comment="" />
+    <list default="true" id="d9cd90ef-5592-42d3-8c65-904371bebd9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_oschina_zcx7878_fastdfs_client_java_1_27_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/src/main/java/com/xuecheng/fastdfs/TestFastDFSApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/src/main/resources/config/fastdfs-client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/src/test/java/com/xuecheng/fastdfs/testFastDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-fastdfs/test-fastdfs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/src/main/java/com/xuecheng/filesystem/controller/FileSystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-base-filesystem/xc-service-base-filesystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/filesystem/response/FileSystemCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/filesystem/response/FileSystemCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/filesystem/response/FileSystemCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/filesystem/response/FileSystemCode.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +35,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,13 +55,15 @@
   </component>
   <component name="ProjectId" id="1RAoDvsFHJlXG3PQVsC0HfHhqDH" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/renren/renren-security" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-base-filesystem" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,6 +72,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,23 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManageCmsApplication">
-    <configuration name="CmsPageRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-cms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.FileSystemApplication">
     <configuration name="CmsPageRepositoryTest.findPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xc-service-manage-cms" />
       <extension name="coverage">
@@ -98,6 +108,45 @@
       <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
       <option name="METHOD_NAME" value="findPage" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testFastDFS.testDownload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-fastdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.fastdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.fastdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.fastdfs.testFastDFS" />
+      <option name="METHOD_NAME" value="testDownload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testFastDFS.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-fastdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.fastdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.fastdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.fastdfs.testFastDFS" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-base-filesystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.filesystem.FileSystemApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFastDFSApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test-fastdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.test.fastdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.test.fastdfs.TestFastDFSApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testFastDFS.testDownload" />
+        <item itemvalue="JUnit.testFastDFS.testUpload" />
+        <item itemvalue="Spring Boot.TestFastDFSApplication" />
         <item itemvalue="Spring Boot.ManageCmsApplication" />
         <item itemvalue="JUnit.CmsPageRepositoryTest.findPage" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -138,11 +202,23 @@
       <workItem from="1570086986108" duration="14500000" />
       <workItem from="1571148150263" duration="4353000" />
       <workItem from="1571840624392" duration="213000" />
+      <workItem from="1575542419538" duration="27766000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -151,6 +227,16 @@
           <url>file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java</url>
           <line>35</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-fastdfs/src/test/java/com/xuecheng/fastdfs/testFastDFS.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-base-filesystem/src/main/java/com/xuecheng/filesystem/service/FileSystemService.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
